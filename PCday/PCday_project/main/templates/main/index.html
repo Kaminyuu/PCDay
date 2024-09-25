@@ -1,9 +1,9 @@
-{% extends 'main/base.html' %}
+{% extends 'base.html' %}
 {% load static %}
 
 {% block css %} <link rel="stylesheet" href="{% static 'deps/css/my_footer_css.css' %}">{% endblock %}
 
-{% block content %}<h1 class="mt-5 pt-5" id="first"><strong>{{ content }}</strong></h1>{% endblock %}
+{% block content %}<h1 class="mt-5 pt-5 first"><strong>{{ content }}</strong></h1>{% endblock %}
 
 {% block footer %}<footer class="py-4 bg-dark">
     <div class="container">
