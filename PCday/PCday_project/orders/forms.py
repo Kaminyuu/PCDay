@@ -18,3 +18,4 @@ class CreateOrderForm(forms.Form):
             ("0", 'False'),
             ("1", 'True'), ]
         , )
+
